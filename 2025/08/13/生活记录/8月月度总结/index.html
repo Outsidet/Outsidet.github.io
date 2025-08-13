@@ -14,7 +14,7 @@
 
 
 
-<title>Github配置ssh key的详细步骤 | xiyao&#39;s blog</title>
+<title>8月月度总结 | xiyao&#39;s blog</title>
 
 
 
@@ -197,7 +197,7 @@
     
     <article class="post-wrap">
         <header class="post-header">
-            <h1 class="post-title">Github配置ssh key的详细步骤</h1>
+            <h1 class="post-title">8月月度总结</h1>
             
                 <div class="post-meta">
                     
@@ -206,14 +206,14 @@
 
                     
                         <span class="post-time">
-                        Date: <a href="#">August 13, 2025&nbsp;&nbsp;14:44:59</a>
+                        Date: <a href="#">August 13, 2025&nbsp;&nbsp;2:52:55</a>
                         </span>
                     
                     
                         <span class="post-category">
                     Category:
                             
-                                <a href="/categories/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/">编程技术</a>
+                                <a href="/categories/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a>
                             
                         </span>
                     
@@ -222,28 +222,8 @@
         </header>
 
         <div class="post-content">
-            <h3 id="第一步：检查本地主机是否已经存在ssh-key"><a href="#第一步：检查本地主机是否已经存在ssh-key" class="headerlink" title="第一步：检查本地主机是否已经存在ssh key"></a>第一步：检查本地主机是否已经存在ssh key</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> ~/.ssh</span><br><span class="line"><span class="built_in">ls</span></span><br><span class="line">//看是否存在 id_rsa 和id_rsa.pub文件，如果存在，说明已经有ssh key</span><br></pre></td></tr></table></figure>
-
-<p>如下图（如果存在，直接跳到第三步）</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Outsidet/xiyao-imgs@main/20250813153844372.png" alt="20250813124810"></p>
-<h3 id="第二步：生成ssh-key"><a href="#第二步：生成ssh-key" class="headerlink" title="第二步：生成ssh key"></a>第二步：生成ssh key</h3><p>如果不存在ssh key，使用以下命令生成</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">&quot;xxx@xxx.com&quot;</span></span><br><span class="line">//执行后一直回车即可</span><br></pre></td></tr></table></figure>
-
-<p>如下图（第一个可以默认密钥名称，第二个为密码。可跳过）</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Outsidet/xiyao-imgs@main/20250813154501123.png" alt="20250813122302"></p>
-<h3 id="第三步：获取ssh-key公钥内容（id-rsa-pub）"><a href="#第三步：获取ssh-key公钥内容（id-rsa-pub）" class="headerlink" title="第三步：获取ssh key公钥内容（id_rsa.pub）"></a>第三步：获取ssh key公钥内容（id_rsa.pub）</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> ~/.ssh</span><br><span class="line"><span class="built_in">cat</span> id_rsa.pub</span><br></pre></td></tr></table></figure>
-
-<p>如下图（复制该内容）</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Outsidet/xiyao-imgs@main/20250813155013911.png" alt="20250813124848"></p>
-<h3 id="第四步：Github账户上添加公钥"><a href="#第四步：Github账户上添加公钥" class="headerlink" title="第四步：Github账户上添加公钥"></a>第四步：Github账户上添加公钥</h3><p>进入Github主页➡️点击右上角头像➡️进入Settings</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Outsidet/xiyao-imgs@main/20250813155752698.png" alt="20250813155719"></p>
-<p>添加ssh key，把刚刚复制的内容粘贴上去保存即可</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Outsidet/xiyao-imgs@main/20250813160427719.png" alt="20250813123348"></p>
-<h3 id="第五步：验证是否设置成功"><a href="#第五步：验证是否设置成功" class="headerlink" title="第五步：验证是否设置成功"></a>第五步：验证是否设置成功</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure>
-
-<p>显示如下信息表面设置成功</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Outsidet/xiyao-imgs@main/20250813160617488.png" alt="20250813160536"></p>
-
+            <p>d</p>
+<h2 id="等着吧！！！！！！！！"><a href="#等着吧！！！！！！！！" class="headerlink" title="等着吧！！！！！！！！"></a>等着吧！！！！！！！！</h2>
         </div>
 
         
@@ -261,9 +241,7 @@
                 <span class="tag">
                     
                     
-                        <a href="/tags/Github/"># Github</a>
-                    
-                        <a href="/tags/SSH/"># SSH</a>
+                        <a href="/tags/%E6%80%BB%E7%BB%93/"># 总结</a>
                     
                         
                 </span>
@@ -276,10 +254,8 @@
         </section>
         <section class="post-nav">
             
-                <a class="prev" rel="prev" href="/2025/08/13/%E8%BD%AF%E4%BB%B6%E5%AD%A6%E4%B9%A0/%E5%AE%B6%E5%85%B7%E8%AE%BE%E8%AE%A1%E5%B8%88CAD%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/">家具设计师CAD常用快捷键</a>
+                <a class="prev" rel="prev" href="/2025/08/13/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Github%E9%85%8D%E7%BD%AEssh-key%E7%9A%84%E8%AF%A6%E7%BB%86%E6%AD%A5%E9%AA%A4/">Github配置ssh key的详细步骤</a>
             
-            
-            <a class="next" rel="next" href="/2025/08/13/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/8%E6%9C%88%E6%9C%88%E5%BA%A6%E6%80%BB%E7%BB%93/">8月月度总结</a>
             
         </section>
 
